@@ -30,10 +30,12 @@ minecraft {
 
 repositories {
     maven { url 'https://jitpack.io' }
+    mavenCentral()
 }
 
 dependencies {
     deobfCompile 'com.github.jbredwards:LibraryEx-JitPack-Fix:1.12.x-SNAPSHOT'
+    compile 'com.electronwill.night-config:json:3.6.0'
 }
 
 processResources {
