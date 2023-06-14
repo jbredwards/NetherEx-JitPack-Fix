@@ -29,10 +29,11 @@ minecraft {
 }
 
 repositories {
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-    compile project(':LibraryEx')
+    deobfCompile 'com.github.jbredwards:LibraryEx-JitPack-Fix:1.12.x-SNAPSHOT'
 }
 
 processResources {
